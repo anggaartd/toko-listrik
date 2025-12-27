@@ -2,8 +2,8 @@
 config.php
 
 # Uploaded Files
-uploads/
-!uploads/.htaccess
+# uploads/
+# !uploads/.htaccess
 
 # Log Files
 *.log
