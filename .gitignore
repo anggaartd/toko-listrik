@@ -1,0 +1,68 @@
+# Database Configuration
+config.php
+
+# Uploaded Files
+uploads/
+!uploads/.htaccess
+
+# Log Files
+*.log
+logs/
+error.log
+access.log
+
+# Cache Files
+cache/
+tmp/
+temp/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Backup Files
+*.bak
+*.backup
+*.sql.backup
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Node.js (if used for build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build Files
+dist/
+build/
+
+# System Files
+.htaccess.backup
+*.orig
+
+# Sensitive Information
+passwords.txt
+credentials.txt
+secrets/
+
+# Development Files
+test/
+tests/
+phpunit.xml
+.phpunit.result.cache
+
+# Session Files
+sessions/
